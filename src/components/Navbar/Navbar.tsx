@@ -1,9 +1,9 @@
 "use client";
 import { TiThMenu } from "react-icons/ti";
-import React, { useState, useTransition } from "react";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
+import React from "react";
 
 function Navbar() {
   const [open, setOpen] = React.useState<boolean>(false);
