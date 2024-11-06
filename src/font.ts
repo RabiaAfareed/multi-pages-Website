@@ -1,4 +1,4 @@
-import { Abhaya_Libre, Instrument_Sans, Italiana,ABeeZee, Inter } from 'next/font/google';
+import { Abhaya_Libre, Instrument_Sans, Italiana,ABeeZee } from 'next/font/google';
 
 export const italiana = Italiana({
     weight: '400', // Italiana has only 400 weight available
@@ -19,11 +19,6 @@ export const italiana = Italiana({
 
   export const abeezee = ABeeZee({
     weight: '400', // Italiana has only 400 weight available
-    subsets: ['latin'],
-    display: 'swap', // Choose subset based on your needs
-  })
-  export const inter = Inter({
-    weight: '400', // Italiana has only 400 weight available  
     subsets: ['latin'],
     display: 'swap', // Choose subset based on your needs
   })
