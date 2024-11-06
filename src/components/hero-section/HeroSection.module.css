@@ -1,0 +1,80 @@
+.hero{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.heroLeft{
+    width:70%;
+    height: 100%;
+    border:2px solid transparent;
+    padding-top: 99px;
+}
+.heroLeft h1{
+    font-size:80px;
+    color: #365567;
+    font-family: Italiana;
+    margin-bottom: 2.5625rem;
+}
+.heroLeft pre{
+    font-size: 28px;
+    color: #365567;
+    margin-bottom: 1.5625rem
+}
+.heroLeft button{
+    width:200px;
+    height: 60px;
+    font-size: 1.5rem;
+    background-color: #f0518b;
+    color: black;
+    &:hover{
+        background-color: #9747FF;
+    }
+}
+.heroRight{
+    width:70%;
+    height: 100%;
+    border:2px solid transparent;
+    padding-top: 99px;
+    display: flex;
+    justify-content: flex-end;
+}
+.heroRightImgBackground{
+    width:400px;
+    height:600px;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 120px ;
+    border-bottom-left-radius: 40px ;
+    background-color: #FEE4EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroRightImgBackground img{
+    margin-bottom: 104px;
+}
+@media (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+    }
+    .heroLeft{
+        width: 70%;
+        padding-top: 4.375rem;
+        text-align: center;
+    }
+    .heroRight{
+        width: 70%;
+        padding-top: 4.375rem;
+        display: flex;
+        justify-content: center;
+    }
+    .heroRightImgBackground{
+     width: 100%;
+     border-top-left-radius: 140px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 140px ;
+    border-bottom-left-radius: 50px ;
+    background-color: #FEE4EE;
+    
+    }
+}

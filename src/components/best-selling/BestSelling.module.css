@@ -1,0 +1,80 @@
+.bestSelling{
+    width: 100%;
+    border: 3px solid transparent;
+    padding-top: 5.4375rem;
+    text-align: center;
+}
+.bestSelling h1{
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: #c04874;
+    text-align: center;
+    line-height: 4.4375rem;
+    
+}
+.bestSelling p{
+    font-size: 1.5rem;
+    color: #486d7b
+}
+.embla{
+    overflow: hidden;
+    margin-top: 3.3125rem;
+}
+.embla__container{
+    display: flex;
+}
+.embla__slide{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5.4375rem;
+}
+.embla__slide .imgDiv{
+    width: 341px;
+    height:393px;
+    background-color: #FEE4EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cardImage{
+    width: 309px;
+    height: 506px;
+    & :hover{
+        transform: scale(1.03);
+    }
+}
+.cardText{
+    width:341px;
+   
+}
+.cardText h1{
+    font-size: 1.5625rem;
+    color: black;
+}
+.cardText pre{
+    font-size: 1.5625rem;
+    color: black;
+}
+.styles.priceDiv{
+    display: flex;
+    align-items: center;
+}
+.star{
+    display: inline-block;
+    margin-top: -3px;
+}
+.bestSelling button{
+    background: transparent;
+    border:2px solid #c04874;
+    width: 257px;
+    height: 50px;
+    font:25px;
+    color: #c04874;
+    margin-top: 43px;
+    margin-bottom: 69px;
+    border-radius: 6px solid #c04874;
+    &:hover{
+        background-color: #FEE4EE;
+    }
+}
