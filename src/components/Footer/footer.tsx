@@ -1,5 +1,5 @@
 import styles from './footer.module.css'
-import {inter} from '@/font';
+
 import { CiFacebook } from "react-icons/ci";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
